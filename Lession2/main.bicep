@@ -28,7 +28,7 @@ param sqlServerAdministratorLogin string
 
 @secure()
 @description('The administrator login password for the SQL server')
-param sqlServerAdmistratorPassword string
+param sqlServerAdministratorPassword string
 
 @description('The name and tier of the SQL database SKU')
 param sqlDatabaseSku object
@@ -62,7 +62,7 @@ resource sqlServer 'Microsoft.Sql/servers@2021-02-01-preview' = {
   location: location
   properties: {
     administratorLogin: sqlServerAdministratorLogin
-    administratorLoginPassword: sqlServerAdmistratorPassword
+    administratorLoginPassword: sqlServerAdministratorPassword
   }
 }
 

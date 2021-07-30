@@ -13,6 +13,22 @@
                 "name": "Standard",
                 "tier": "Standard"
             }
+        },
+        "sqlServerAdministratorLogin": {
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/db262b23-05f3-4546-a0de-94ca06e8225c/resourceGroups/learn-52238f41-44fe-4d73-8394-fd32af920a8b/providers/Microsoft.KeyVault/vaults/kv-jhpsecrets-lb"
+                },
+                "secretName": "sqlServerAdministratorLogin"
+            }
+        },
+        "sqlServerAdministratorPassword": {
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/db262b23-05f3-4546-a0de-94ca06e8225c/resourceGroups/learn-52238f41-44fe-4d73-8394-fd32af920a8b/providers/Microsoft.KeyVault/vaults/kv-jhpsecrets-lb"
+                },
+                "secretName": "sqlServerAdministratorPassword"
+            }
         }
     }
 }
