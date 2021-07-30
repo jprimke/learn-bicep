@@ -1,2 +1,3 @@
 # learn-bicep
-sampl scripts for Microsoft learn path Bicep
+
+sample scripts for Microsoft learn path Bicep
